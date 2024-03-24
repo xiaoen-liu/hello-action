@@ -1,0 +1,16 @@
+{
+  "name": "hello-action",
+  "version": "1.0.0",
+  "description": "A simple GitHub Action",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build index.js --license licenses.txt"
+  },
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@actions/github": "^4.0.0"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.22.3"
+  }
+}
